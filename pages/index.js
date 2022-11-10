@@ -1,7 +1,4 @@
-import Head from "next/head";
-import Image from "next/image";
 import { useEffect, useState } from "react";
-import styles from "../styles/Home.module.css";
 import axios from "axios";
 
 export default function Home() {
@@ -43,7 +40,7 @@ export default function Home() {
               return (
                 <div key={index} className="col-span-1 flex justify-center">
                   <img
-                    className="h-14 object-contain brightness-0 hover:brightness-50"
+                    className="h-14 object-contain brightness-0"
                     src={`${HOST}${item.attributes.PartnerLogo.data.attributes.url}`}
                     alt=""
                   />
@@ -57,7 +54,9 @@ export default function Home() {
 
       <div className="flex items-center justify-center space-x-4 py-6 mt-10 font-light relative lg:fixed bottom-0 inset-x-0">
         <span>Contact</span>
-        <a href="mailto:furkan@furkanuzun.net" className="underline">Mail</a>
+        <a href="mailto:furkan@furkanuzun.net" className="underline">
+          Mail
+        </a>
       </div>
     </div>
   );
