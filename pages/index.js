@@ -57,9 +57,7 @@ export default function Home() {
 
       <div className="flex items-center justify-center space-x-4 py-6 mt-10 font-light relative lg:fixed bottom-0 inset-x-0">
         <span>Contact</span>
-        <a href="#" className="underline">Instagram</a>
-        <a href="#" className="underline">Twitter</a>
-        <a href="#" className="underline">Phone</a>
+        <a href="mailto:furkan@furkanuzun.net" className="underline">Mail</a>
       </div>
     </div>
   );
