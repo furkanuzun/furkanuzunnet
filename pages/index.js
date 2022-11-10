@@ -23,7 +23,7 @@ export default function Home() {
           <span className="inline-block font-normal ml-4 flex flex-col">
             <span className="inline-block animate-pulse">{"Furkan."}</span>
             <div className="text-sm text-center font-light text-gray-600">
-              front-end developerrr
+              front-end developer
             </div>
           </span>
         </div>
