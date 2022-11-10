@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Head from "next/head";
 
 export default function Home() {
   const HOST = "https://panel.furkanuzun.net";
@@ -16,6 +17,10 @@ export default function Home() {
 
   return (
     <div className="container mx-auto pt-10">
+      <Head>
+        <title>Furkan Uzun</title>
+        <link rel="shortcut icon" href="/favicon.png" />
+      </Head>
       <h1 className="text-6xl lg:text-6xl font-thin text-center mb-20">
         <span className="block">{"Welcome,"}</span>
         <div className="flex items-start justify-center">
